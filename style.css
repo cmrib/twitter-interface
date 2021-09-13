@@ -1,10 +1,10 @@
-*{
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: #e6ecf0;
     font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
     text-rendering: optimizeLegibility !important;
@@ -16,34 +16,33 @@ input, button {
 }
 
 /* Para fazer o container central da página, utlizar isso aqui \/ */
-.content{
+.content {
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 30px;
 }
 
-header#main-header .content{
+header#main-header .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100%
 }
 
-header#main-header{  
+header#main-header {  
     background: #fff;
     height: 46px;
-    box-shadow: 0 1px 1px (rgba(0, 0, 0, 0.25));
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
     position: relative;
     z-index: 1;
 }
 
-header#main-header nav ul{
-     
+header#main-header nav ul {     
     display: flex;
     list-style: none;    
 }
 
-header#main-header nav li{
+header#main-header nav li {
     font-size: 13px;
     color: #667580;
     font-weight: bold;
@@ -52,7 +51,7 @@ header#main-header nav li{
     margin-left: 30px;
 }
 
-header#main-header nav li:first-child{
+header#main-header nav li:first-child {
     margin-left: 0;
 }
 
@@ -66,7 +65,7 @@ header#main-header div.side {
     align-items: center;
 } 
 
-header#main-header div.side input{
+header#main-header div.side input {
     background: #f5f8fa;
     border: solid 1px #e6ecf0;
     height: 34px;
@@ -84,7 +83,7 @@ header#main-header div.side img {
     margin: 0 15px
 }
 
-header#main-header div.side button{
+header#main-header div.side button {
     background: #3bbee3;
     height: 34px;
     display: flex;
@@ -105,6 +104,68 @@ div.banner {
     justify-content: center;
     align-items: center ;
     color: #fff;
+}
+
+div.bar {
+    height: 59px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25)
+
+}
+
+div.bar .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 285px;
+    height: 100%;
+}
+
+
+div.bar .content ul {
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+}
+
+div.bar .content ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center; 
+    padding: 0 15px;
+    position: relative;   
+}
+
+
+div.bar .content ul li.active::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #3bb9e3;
+
+
+} 
+
+div.bar .content ul li span{
+    color: #667580;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+div.bar .content ul li strong{
+    color: #667580;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+div.bar .content ul li.active strong{
+    color: #3bb9e3;
+
 }
 
 
