@@ -147,7 +147,6 @@ div.bar .content ul li.active::after {
     left: 0;
     background-color: #3bb9e3;
 
-
 } 
 
 div.bar .content ul li span{
@@ -165,7 +164,18 @@ div.bar .content ul li strong{
 
 div.bar .content ul li.active strong{
     color: #3bb9e3;
+}
 
+div.bar .content .actions button {
+    background: #fff;
+    height: 34px;
+    
+    width: 90px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #3bbee3;
+    border: 2px solid #3bbee3;
+    border-radius: 16px;
 }
 
 
