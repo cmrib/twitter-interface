@@ -102,9 +102,10 @@
     font-size: 14px;
     color: #fff;
     border: 0;
-    border-radius: 16px;
-    
+    border-radius: 16px;    
   }
+
+
   header#main-header div.side button:hover {
     filter: brightness(0.9)
   }
@@ -112,13 +113,16 @@
   div.banner {
     height: 380px;
     width: 100%;
-    background: #3bb9e3;
-  
+    background: #3bb9e3;  
     display: flex;
     align-items: center;
-    justify-content: center;
-  
+    justify-content: center;  
     color: #fff;
+  }
+
+  div.banner img{
+    height: 100%;
+    width: 100%
   }
   
   div.bar {
@@ -182,19 +186,16 @@
   }
   
   div.bar .content .actions button {
-    height: 34px;
-  
+    height: 34px;  
     display: flex;
     align-items: center;
-    justify-content: center;
-  
+    justify-content: center;  
     width: 90px;
     font-weight: bold;
     font-size: 14px;
     color: #3bb9e3;
     border: 1px solid #3bb9e3;
-    border-radius: 16px;
-  
+    border-radius: 16px;  
     margin-right: 20px;
   }
   
@@ -475,12 +476,10 @@
   
   div.wrapper-content aside.widgets .follow ul li .profile .info button {
     height: 27px;
-    margin-top: 4px;
-  
+    margin-top: 4px;  
     display: flex;
     align-items: center;
-    justify-content: center;
-  
+    justify-content: center;  
     width: 90px;
     font-weight: bold;
     font-size: 14px;
